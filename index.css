@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color:#1B244A ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+.score-board{
+    display: flex;
+    background-color: #080001;
+    width:120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.score{
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-size: 90px;
+font-weight: 400;
+color: #F94F6D;
+line-height: 1;
+padding-top: 15px;
+}
+
+.score-btns-container{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.score-btn{
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+border: solid 2px #9AABD8;
+background-color: transparent;
+border-radius: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.new-game{
+    display:flex;
+    margin-top: 60px;
+}
